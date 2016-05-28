@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Parallax Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="index.html" class="brand-logo">
+        <img style="width:170px; padding-top:10px;"src="images/logo_black.png" alt="Logo">
+      </a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+      </ul>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">Learn More</a></li>
+      </ul>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">Blog</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html">Learn More</a></li>
+        <li><a href="index.html">Blog</a></li>
+      </ul>
+
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center cyan-text text-lighten-2">{{First Name}}</h1>
+        <div class="row center">
+          <a href="{{donwallet}}" id="download-button" class="btn-large waves-effect waves-light cyan lighten-2">Donate</a>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="images/homeless_man.jpg" alt="Homeless Man"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Me.</h4>
+          <p class="left-align light">
+            {{About me}}
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>My Story.</h4>
+          <p class="left-align light">
+            {{Story}}
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>How are you helping?</h4>
+          <p class="left-align light">
+            {{Help info}}
+          </p>
+          <p class="left-align light">
+            {{verified by}}
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s9 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <div class="row">
+            <div class="col s2 center">
+              <canvas id="graph" width="100" height="100"></canvas>
+            </div>
+            <div class="col s3">
+              <p class="left-align light">
+              Amount raised <br/>
+              ${{Amount}}
+              </p>
+              </div>
+
+          </div>
+
+
+        </div>
+        <div class="col s3 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <p class="left-align light">
+            <a href="{{donwallet}}" id="download-button" class="btn-large waves-effect waves-light cyan lighten-2">Donate</a>
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer class="page-footer cyan">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Learn More</h5>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Blog</h5>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Share</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Facebook</a></li>
+            <li><a class="white-text" href="#!">Twitter</a></li>
+            <li><a class="white-text" href="#!">Google +</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Powered by <a class="brown-text text-lighten-3" href="http://www.rhokaustralia.org/western-sydney">RHOK</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/chart.js"></script>
+
+  </body>
+</html>
