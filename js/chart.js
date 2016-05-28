@@ -2,7 +2,7 @@
 var pieData = [
     {
         value : 30,
-        color : "#00BCD4"
+        color : "#fb8c00"
     },
     {
         value : 70,
