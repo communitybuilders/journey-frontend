@@ -17,7 +17,7 @@ function profile(){
     var id = getParameterByName('id');
 
     $.ajax({
-        url: "http://journey.communitybuilders.com.au/node/" + id + "?_format=json"
+        url: "https://journey.communitybuilders.com.au/node/" + id + "?_format=json"
     }).then(function(data) {
 
         $('#name').append("My name is " + data.title[0].value + "...");
