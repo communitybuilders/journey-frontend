@@ -14,6 +14,10 @@ function card_generator(){
              //   var body =  item.type[0 ].target_id;
                 //console.log(item.body[0 ].value);
 
+                var desc = item.body[0].value;
+                var pos = desc.indexOf('.');
+                desc = desc.substring(0, pos + 1);
+
                 var card = "<div class='col s12 m4'>" +
                                 "<div class='card'>" +
                                 "<div class='card-image'>" +
@@ -21,10 +25,10 @@ function card_generator(){
                                 "<span class='card-title white-text'>" + item.title[0].value + "</span>" +
                                 "</div>" +
                                 "<div class='card-content'>" +
-                                "<p>" + item.body[0].value + "</p>" +
+                                "<p>" + desc + "</p>" +
                                 "</div>" +
                                 "<div class='card-action'>" +
-                                "<a class='cyan-text' href='profile.html?id="+ item.nid[0].value + "'>Join my journey</a>" +
+                                "<a class='light-blue-text' href='profile.html?id="+ item.nid[0].value + "'>Learn my story</a>" +
                                 "</div>" +
                                 "</div>" +
                                 "</div>";
