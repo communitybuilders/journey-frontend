@@ -38,7 +38,7 @@ function card_generator(){
                                 "<p style='font-size: 13px; text-align: right;'>" + tax + "</p>" +
                                 "</div>" +
                                 "<div class='card-action' style='text-align: center;'>" +
-                                "<a class='btn-large waves-effect waves-light  orange darken-1' href='/profile?id="+ item.nid[0].value + "'>Learn my story</a>" +
+                                "<a class='btn-large waves-effect waves-light  orange darken-1' href='/profile.php?id="+ item.nid[0].value + "'>Learn my story</a>" +
                                 "</div>" +
                                 "</div>" +
                                 "</div>";

@@ -18,10 +18,10 @@
     </a>
 
     <ul class="right hide-on-med-and-down">
-      <li><a href="/for_partners">For Partners</a></li>
+      <li><a href="/for_partners.php">For Partners</a></li>
     </ul>
     <ul class="right hide-on-med-and-down">
-      <li><a href="/contact_us">Contact Us</a></li>
+      <li><a href="/contact_us.php">Contact Us</a></li>
     </ul>
     <ul class="right hide-on-med-and-down">
       <li><a href="/">Home</a></li>
@@ -29,8 +29,8 @@
 
     <ul id="nav-mobile" class="side-nav">
       <li><a href="/">Home</a></li>
-      <li><a href="/">Learn More</a></li>
-      <li><a href="#">Blog</a></li>
+      <li><a href="/for_partners.php">For Partners</a></li>
+      <li><a href="/contact_us.php">Contact Us</a></li>
     </ul>
 
     <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons cyan-text">menu</i></a>

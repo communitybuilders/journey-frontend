@@ -10,7 +10,7 @@
 
         </div>
         <div class="row center">
-          <a href="/cards" id="download-button" class="btn-large waves-effect waves-light  orange darken-1">Join Someone's Journey</a>
+          <a href="/cards.php" id="download-button" class="btn-large waves-effect waves-light  orange darken-1">Join Someone's Journey</a>
         </div>
         <br><br>
 
