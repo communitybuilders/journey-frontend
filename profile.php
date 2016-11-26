@@ -22,7 +22,7 @@
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h4 id="name"></h4>
-          <div id="story" class="left-align light">
+          <div id="story" class="center-align light">
 
           </div>
         </div>
@@ -35,7 +35,7 @@
           <p id="help_info" class="left-align light">
           </p>
           <p id="verified_by" class="left-align light">
-            <b>Verified By: </b>
+            <b>Verified by: </b>
           </p>
         </div>
       </div>
@@ -52,12 +52,17 @@
               Amount raised <br/>
               <span id="amount_raised">$</span>
               </p>
+              <p class="left-align light">
+                Target  <br/>
+                <span id="target">$</span>
+              </p>
               </div>
 
           </div>
         </div>
         <div class="col s4 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
+          <div class="tax_deductible left-align"> </div>
           <p class="donate_button left-align light">
           </p>
         </div>

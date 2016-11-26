@@ -20,14 +20,20 @@ function profile(){
         url: "https://journey.communitybuilders.com.au/node/" + id + "?_format=json"
     }).then(function(data) {
 
+        var tax = "<i>* This donation is not tax deductible</i>";
+
+        if (typeof(data.field_tax_deductible_[0]) != "undefined" && data.field_tax_deductible_[0].value == 1) {
+            tax = "<i>* This donation is tax deductible</i>";
+        }
+
         $('#name').append("My name is " + data.title[0].value + "...");
         $('#image').append('<img src="'+  data.field_image[0].url + '" alt="Journey" style="display: block; transform: translate3d(-50%, 169px, 0px);">');
         $('#story').append(data.body[0].value);
         $('#help_info').append(data.field_ask[0].value);
-        $('#verified_by').append(data.title[0].value);
-        $('.donate_button').append('<a href="' + data.field_donate_url[0].uri + '" class="btn-large waves-effect waves-light orange darken-1">Donate</a>');
-
-        if (data.field_dw_campaign_id[0].value) {
+        $('#verified_by').append(data.field_verified_by[0].value);
+        $('.tax_deductible').append("<div style='font-size: 13px;'>" + tax + "</div>");
+        $('.donate_button').append("<a href='" + data.field_donate_url[0].uri + "' class='btn-large waves-effect waves-light orange darken-1'>Donate</a>");
+        if (typeof(data.field_dw_campaign_id[0]) != "undefined" && data.field_dw_campaign_id[0].value == 1) {
             chart_values(data.field_dw_campaign_id[0].value);
         }
 
@@ -45,6 +51,7 @@ function chart_values(entity_id){
             var target = result.result.targets[0];
 
             $("#amount_raised").text("$ " + target.current_value);
+            $("#target").text("$ " + target.target_value);
 
             var pieData = [
                 {
@@ -52,7 +59,7 @@ function chart_values(entity_id){
                     color : "#fb8c00"
                 },
                 {
-                    value : target.target_value,
+                    value : target.target_value - target.current_value,
                     color : "#eee"
                 }
             ];
