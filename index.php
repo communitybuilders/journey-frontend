@@ -44,7 +44,7 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img width='400px' height="auto" src="images/Strip2_phone_in_hand.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="images/Strip2_phone_in_hand.jpg"></div>
   </div>
 
   <div class="container">
