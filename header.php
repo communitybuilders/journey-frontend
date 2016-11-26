@@ -56,6 +56,6 @@
       <li><a href="/for_partners.php">For Partners</a></li>
     </ul>
 
-    <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons cyan-text">menu</i></a>
+    <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons cyan-darken-2-text">menu</i></a>
   </div>
 </nav>

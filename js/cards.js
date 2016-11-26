@@ -31,7 +31,7 @@ function card_generator(){
                                 "</div>" +
                                 "<div class='card-content'>" +
                                 "<div style='padding-bottom:10px'>" +
-                                "<i class='tiny material-icons dp48'>verified_user</i><b style='font-size: 13px;'> Verified by: " + organisation + "</b>" +
+                                "<i class='tiny material-icons dp48 green-text'>verified_user</i><b style='font-size: 13px;'> Verified by: " + organisation + "</b>" +
                                 "</div>" +
                                 "<p>" + desc + "</p>" +
                                 "<br />" +
