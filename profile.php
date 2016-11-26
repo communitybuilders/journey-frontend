@@ -4,6 +4,7 @@
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
+        <h1 style="padding-top:125px" id="name-old" class="header center cyan-text text-lighten-2"></h1>
         <div class="donate_button row center">
         </div>
         <br><br>
