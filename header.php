@@ -33,14 +33,17 @@
 <nav class="white" role="navigation">
   <div class="nav-wrapper container">
     <a id="logo-container" href="/" class="brand-logo">
-      <img style="width:170px; padding-top:10px;"src="images/logo_black.png" alt="Logo">
+      <img style="width:170px; padding-top:10px;" src="images/logo_black.png" alt="Logo">
     </a>
 
+    <ul class="right hide-on-med-and-down">
+      <li><a href="/contact_us.php">Contact Us</a></li>
+    </ul>
     <ul class="right hide-on-med-and-down">
       <li><a href="/for_partners.php">For Partners</a></li>
     </ul>
     <ul class="right hide-on-med-and-down">
-      <li><a href="/contact_us.php">Contact Us</a></li>
+      <li><a href="/cards.php">Profiles</a></li>
     </ul>
     <ul class="right hide-on-med-and-down">
       <li><a href="/">Home</a></li>
@@ -48,8 +51,9 @@
 
     <ul id="nav-mobile" class="side-nav">
       <li><a href="/">Home</a></li>
-      <li><a href="/for_partners.php">For Partners</a></li>
+      <li><a href="/cards.php">Profiles</a></li>
       <li><a href="/contact_us.php">Contact Us</a></li>
+      <li><a href="/for_partners.php">For Partners</a></li>
     </ul>
 
     <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons cyan-text">menu</i></a>

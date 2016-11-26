@@ -9,7 +9,7 @@
             <h2 class="header col s12 light">Help an Aussie in need</h2>
 
         </div>
-        <div class="row center">
+        <div class="row center" style="padding-top:50px">
           <a href="/cards.php" id="download-button" class="btn-large waves-effect waves-light  orange darken-1">Join Someone's Journey</a>
         </div>
         <br><br>
@@ -40,11 +40,11 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">Connect with a disadvantaged individual and help a fellow Aussie reach their goals</h5>
+          <h5 class="header col s12 light">Give a little. Change a life.</h5>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="images/background2.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img width='400px' height="auto" src="images/Strip2_phone_in_hand.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
   <div class="container">

@@ -1,22 +1,11 @@
-<footer class="page-footer light-blue lighten-4">
+<footer class="page-footer cyan darken-2">
   <div class="container">
     <div class="row">
       <div class="col l6 s12">
-        <h5 class="white-text">Contact Us</h5>
         <ul>
         <li><a class="white-text" href="/terms_of_use.php">Terms of Use</a></li>
+          <li><a class="white-text" href="https://www.facebook.com/journeycrowdfunding">Facebook</a></li>
           </ul>
-      </div>
-      <div class="col l3 s12">
-        <h5 class="white-text">For Partners</h5>
-      </div>
-      <div class="col l3 s12">
-        <h5 class="white-text">Share</h5>
-        <ul>
-          <li><a class="white-text" href="#!">Facebook</a></li>
-          <li><a class="white-text" href="#!">Twitter</a></li>
-          <li><a class="white-text" href="#!">Google +</a></li>
-        </ul>
       </div>
     </div>
   </div>
