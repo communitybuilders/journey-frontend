@@ -16,19 +16,20 @@
     <a id="logo-container" href="index.php" class="brand-logo">
       <img style="width:170px; padding-top:10px;"src="images/logo_black.png" alt="Logo">
     </a>
+
     <ul class="right hide-on-med-and-down">
-      <li><a href="index.php">Home</a></li>
+      <li><a href="/for_partners">For Partners</a></li>
     </ul>
     <ul class="right hide-on-med-and-down">
-      <li><a href="index.php">Learn More</a></li>
+      <li><a href="/contact_us">Contact Us</a></li>
     </ul>
     <ul class="right hide-on-med-and-down">
-      <li><a href="index.php">Blog</a></li>
+      <li><a href="/">Home</a></li>
     </ul>
 
     <ul id="nav-mobile" class="side-nav">
-      <li><a href="index.php">Home</a></li>
-      <li><a href="index.php">Learn More</a></li>
+      <li><a href="/">Home</a></li>
+      <li><a href="/">Learn More</a></li>
       <li><a href="#">Blog</a></li>
     </ul>
 
