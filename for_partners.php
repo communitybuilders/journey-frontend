@@ -2,7 +2,8 @@
 
   <div class="container">
     <div class="section">
-      <div id="how_to_join" class="row">
+      <h3 id="title_for_partners"></h3>
+      <div id="for_partners" class="row">
       </div>
     </div>
   </div>

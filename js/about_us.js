@@ -1,13 +1,12 @@
 $(document).ready(function() {
-    aboutus();
+    about_us();
 });
 
-function aboutus(){
+function about_us(){
 
     $.ajax({
         url: "https://journey.communitybuilders.com.au/node/6?_format=json"
     }).then(function(data) {
-
         $('#about_us').html(data.body[0].value);
     });
 }

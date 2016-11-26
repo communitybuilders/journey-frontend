@@ -48,14 +48,14 @@
               <canvas id="graph" style="max-width:100px; height:100px"></canvas>
             </div>
             <div class="col s3">
-              <p class="left-align light">
+              <div class="left-align light">
               Amount raised <br/>
               <span id="amount_raised">$</span>
-              </p>
-              <p class="left-align light">
+              </div>
+              <div class="left-align light">
                 Target  <br/>
                 <span id="target">$</span>
-              </p>
+              </div>
               </div>
 
           </div>

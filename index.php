@@ -25,37 +25,11 @@
 
       <!--   Icon Section   -->
       <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text text-lighten-4"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Connect</h5>
-
-            <p class="light">
-              See our disadvantaged individuals and the journeys they are on.
-            </p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text text-lighten-4"><i class="material-icons">favorite</i></h2>
-            <h5 class="center">Subscribe</h5>
-
-            <p class="light">
-              Select an individual(s) whose goals appeals to you and subscribe to their journey.
-            </p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text text-lighten-4"><i class="material-icons">group</i></h2>
-            <h5 class="center">Achieve</h5>
-
-            <p class="light">
-              Join them on their journey and share in their success as they reach each milestone.
-            </p>
-          </div>
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Real people. Real outcomes.</h4>
+          <p id="home_page" class="center-align light">
+          </p>
         </div>
       </div>
 
@@ -80,7 +54,7 @@
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h4>About Us</h4>
-          <p id="about_us" class="left-align light">
+          <p id="about_us" class="center-align light">
           </p>
         </div>
       </div>
