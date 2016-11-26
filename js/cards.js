@@ -28,7 +28,7 @@ function card_generator(){
                                 "<p>" + desc + "</p>" +
                                 "</div>" +
                                 "<div class='card-action'>" +
-                                "<a class='light-blue-text' href='profile.html?id="+ item.nid[0].value + "'>Learn my story</a>" +
+                                "<a class='light-blue-text' href='profile.php?id="+ item.nid[0].value + "'>Learn my story</a>" +
                                 "</div>" +
                                 "</div>" +
                                 "</div>";
