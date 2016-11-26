@@ -68,6 +68,16 @@
         </div>
       </div>
 
+      <div class="row">
+        <div class="col s2 center">	&nbsp;
+        </div>
+        <div id="comments" class="col s8 center">
+
+        </div>
+        <div class="col s2 center">
+        </div>
+      </div>
+
     </div>
   </div>
 

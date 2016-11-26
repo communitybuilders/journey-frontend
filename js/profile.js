@@ -35,9 +35,14 @@ function profile(){
         $('.donate_button').append("<a href='" + data.field_donate_url[0].uri + "' class='btn-large waves-effect waves-light orange darken-1'>Donate</a>");
 
         if (typeof(data.field_dw_campaign_id[0]) != "undefined" ) {
-            console.log(data.field_dw_campaign_id[0]);
             chart_values(data.field_dw_campaign_id[0].value);
         }
+
+        //Get the news
+        $.each( data.field_updates, function( key, value ) {
+            console.log(value.cid);
+            get_comment(value.cid);
+        });
 
     });
 }
@@ -68,5 +73,13 @@ function chart_values(entity_id){
 
             new Chart(document.getElementById("graph").getContext("2d")).Doughnut(pieData, {percentageInnerCutout : 62});
         }
+    });
+}
+
+function get_comment(comment_id){
+    $.ajax({
+        url: "https://journey.communitybuilders.com.au/comment/" + comment_id + "?_format=json"
+    }).then(function(data) {
+        $('#comments').append("<h3 class='center-align'>News</h3><div class='left-align card-panel grey lighten-5 z-depth-1'>" + data.subject[0].value + " " + data.comment_body[0].value + "</div>");
     });
 }
