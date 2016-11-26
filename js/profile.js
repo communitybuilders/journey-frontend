@@ -33,7 +33,9 @@ function profile(){
         $('#verified_by').append(data.field_verified_by[0].value);
         $('.tax_deductible').append("<div style='font-size: 13px;'>" + tax + "</div>");
         $('.donate_button').append("<a href='" + data.field_donate_url[0].uri + "' class='btn-large waves-effect waves-light orange darken-1'>Donate</a>");
-        if (typeof(data.field_dw_campaign_id[0]) != "undefined" && data.field_dw_campaign_id[0].value == 1) {
+
+        if (typeof(data.field_dw_campaign_id[0]) != "undefined" ) {
+            console.log(data.field_dw_campaign_id[0]);
             chart_values(data.field_dw_campaign_id[0].value);
         }
 

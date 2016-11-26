@@ -10,7 +10,7 @@ function card_generator(){
         $.each(data, function(i, item) {
 
             if (item.type[0].target_id == 'profile'){
-                console.log(item);
+
                 var desc = item.body[0].value;
                 var pos = desc.indexOf('.');
                 desc = desc.substring(0, pos + 1);
