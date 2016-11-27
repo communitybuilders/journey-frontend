@@ -32,8 +32,8 @@ function card_generator(){
                 var card = "<div class='col s12 m4'>" +
                                 "<div class='card'>" +
                                 "<div class='card-image'>" +
-                                "<img src='" + item.field_image[0].url + "'>" +
-                                "<span class='card-title white-text'>" + item.title[0].value + "</span>" +
+                                "<a href='profile.html?id="+ item.nid[0].value + "'><img src='" + item.field_image[0].url + "'>" +
+                                "<span class='card-title white-text'>" + item.title[0].value + "</span></a>" +
                                 "</div>" +
                                 "<div class='card-content'>" +
                                 "<div style='padding-bottom:10px'>" +
