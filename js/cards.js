@@ -23,6 +23,12 @@ function card_generator(){
                     tax = "<i>* This donation is tax deductible</i>";
                 }
 
+                var donationMatch = "";
+
+                if(item.field_donation_match) {
+                    donationMatch = "<i class='tiny material-icons dp48 green-text'>done_all</i><b>Donation match: The verifying organisation will match your donation</b>";
+                }
+
                 var card = "<div class='col s12 m4'>" +
                                 "<div class='card'>" +
                                 "<div class='card-image'>" +
@@ -32,6 +38,7 @@ function card_generator(){
                                 "<div class='card-content'>" +
                                 "<div style='padding-bottom:10px'>" +
                                 "<i class='tiny material-icons dp48 green-text'>verified_user</i><b style='font-size: 13px;'> Verified by: " + organisation + "</b>" +
+                                donationMatch +
                                 "</div>" +
                                 "<p>" + desc + "</p>" +
                                 "<br />" +
