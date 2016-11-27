@@ -25,15 +25,15 @@ function card_generator(){
 
                 var donationMatch = "";
 
-                if(item.field_donation_match) {
+                if(typeof(item.field_donation_match_[0]) != "undefined" && item.field_donation_match_[0].value == 1) {
                     donationMatch = "<i class='tiny material-icons dp48 green-text'>done_all</i><b>Donation match: The verifying organisation will match your donation</b>";
                 }
 
                 var card = "<div class='col s12 m4'>" +
                                 "<div class='card'>" +
                                 "<div class='card-image'>" +
-                                "<img src='" + item.field_image[0].url + "'>" +
-                                "<span class='card-title white-text'>" + item.title[0].value + "</span>" +
+                                "<a href='profile.html?id="+ item.nid[0].value + "'><img src='" + item.field_image[0].url + "'>" +
+                                "<span class='card-title white-text'>" + item.title[0].value + "</span></a>" +
                                 "</div>" +
                                 "<div class='card-content'>" +
                                 "<div style='padding-bottom:10px'>" +
