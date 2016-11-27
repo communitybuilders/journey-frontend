@@ -56,6 +56,9 @@
           <h4>About Us</h4>
           <p id="about_us" class="center-align light">
           </p>
+          <div class="row center" style="padding-top:50px">
+            <a href="/cards.php" id="download-button" class="btn-large waves-effect waves-light  orange darken-1">Join Someone's Journey</a>
+          </div>
         </div>
       </div>
 
