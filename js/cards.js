@@ -25,7 +25,7 @@ function card_generator(){
 
                 var donationMatch = "";
 
-                if(item.field_donation_match) {
+                if(typeof(item.field_donation_match_[0]) != "undefined" && item.field_donation_match_[0].value == 1) {
                     donationMatch = "<i class='tiny material-icons dp48 green-text'>done_all</i><b>Donation match: The verifying organisation will match your donation</b>";
                 }
 
