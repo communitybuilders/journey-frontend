@@ -26,7 +26,7 @@ function card_generator(){
                 var donationMatch = "";
 
                 if(typeof(item.field_donation_match[0]) != "undefined" && item.field_donation_match[0].value == 1) {
-                    donationMatch = "<i class='tiny material-icons dp48 green-text'>done_all</i><b> Donation match: The verifying organisation will match your donation</b>";
+                    donationMatch = "<i class='tiny material-icons dp48 green-text'>done_all</i><b style='font-size: 13px;'> Donation match: The verifying organisation will match your donation</b>";
                 }
 
                 var card = "<div class='col s12 m4'>" +
