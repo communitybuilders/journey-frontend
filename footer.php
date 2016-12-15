@@ -4,6 +4,7 @@
       <div class="col l6 s12">
         <ul>
         <li><a class="white-text" href="/terms_of_use.php">Terms of Use</a></li>
+            <li><a class="white-text" href="/privacy_policy.php">Privacy Policy</a></li>
           <li><a class="white-text" href="https://www.facebook.com/journeycrowdfunding">Facebook</a></li>
           </ul>
       </div>
@@ -24,6 +25,7 @@
 <script src="js/for_partners.js"></script>
 <script src="js/contact_us.js"></script>
 <script src="js/terms_of_use.js"></script>
+<script src="js/privacy_policy.js"></script>
 <script src="js/about_us.js"></script>
 <script src="js/home_page.js"></script>
 <script src="js/cards.js"></script>
