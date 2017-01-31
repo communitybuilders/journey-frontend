@@ -6,7 +6,7 @@
         <br><br>
         <div class="center">
           <!-- <img class="row center" style="width:170px; padding-top:10px;"src="images/logo_cyan.png" alt="Logo"> -->
-            <h2 class="header col s12 light">Help an Aussie in need</h2>
+            <h2 class="header col s12 light">Help an Individual in need</h2>
 
         </div>
         <div class="row center" style="padding-top:50px">
