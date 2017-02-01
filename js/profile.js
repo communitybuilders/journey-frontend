@@ -35,7 +35,7 @@ function profile(){
         $('.donate_button').append("<a href='" + data.field_donate_url[0].uri + "' class='btn-large waves-effect waves-light orange darken-1'>Donate</a>");
 
         if (typeof(data.field_dw_campaign_id[0]) != "undefined" ) {
-            chart_values(data.field_dw_campaign_id[0].value);
+            chart_values(data.field_dw_campaign_id[0].value, data.field_donate_url[0].uri);
         }
 
         //Get the news
@@ -47,9 +47,9 @@ function profile(){
     });
 }
 
-function chart_values(entity_id){
+function chart_values(entity_id, url){
 
-    var url = "https://journey.communitybuilders.com.au/donorwallet?entity_id=" + entity_id;
+    var url = "https://journey.communitybuilders.com.au/donorwallet?entity_id=" + entity_id + "&url=" + url;
 
     $.get(url, function(data) {
         var result = $.parseJSON(data);
